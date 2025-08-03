@@ -5,5 +5,3 @@ export default defineConfig({
   plugins: [react()],
 });
 
-// import tailwindcss from '@tailwindcss/vite'
-//tailwindcss()
