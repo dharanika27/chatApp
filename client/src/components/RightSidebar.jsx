@@ -3,7 +3,7 @@ import assets from '../assets/assets'
 import { ChatContext } from '../../context/ChatContext'
 import { AuthContext } from '../../context/AuthContext'
 
-const RightSidebar = () => {
+const RightSideBar = () => {
 
   const {selectedUser, messages} = useContext(ChatContext) 
   const {logout, onlineUsers} = useContext(AuthContext)
@@ -50,4 +50,4 @@ const RightSidebar = () => {
   )
 }
 
-export default RightSidebar
+export default RightSideBar;
